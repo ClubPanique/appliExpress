@@ -5,11 +5,10 @@ var router = express.Router();
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "bcojdzqyiumx3surgdjb-mysql.services.clever-cloud.com ",
-  port: 3306,
-  user: "uphdcrqawqqyvp4d",
-  password: "MLvjodIWXA7KwtUrPxuH",
-  database: "bcojdzqyiumx3surgdjb"
+  host     : process.env.MYSQL_ADDON_HOST,
+  database : process.env.MYSQL_ADDON_DB,
+  user     : process.env.MYSQL_ADDON_USER,
+  password : process.env.MYSQL_ADDON_PASSWORD
 });
 
 
@@ -24,9 +23,6 @@ router.get('/', function (req, res, next) {
       res.render('index', { test: result });
     })
   });
-  
 });
 
 module.exports = router;
-
-
