@@ -5,13 +5,12 @@ var router = express.Router();
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "alice",
-  password: "duWMrwvBgByYveri",
-  database: "test"
+  host: "bcojdzqyiumx3surgdjb-mysql.services.clever-cloud.com ",
+  user: "uphdcrqawqqyvp4d",
+  password: "MLvjodIWXA7KwtUrPxuH",
+  database: "bcojdzqyiumx3surgdjb"
 });
 
-//con.end();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -21,17 +20,10 @@ router.get('/', function (req, res, next) {
     console.log("Connected!");
     con.query('SELECT * FROM employe WHERE num_service = 30', function(err, result, fields) {
       if (err) throw err;
-      console.log(result);
+      res.render('index', { test: result });
     })
   });
-  /* con.connect(function(err) {
-    if (err) throw err;
-    console.log("Connected!");
-    con.query('SELECT * FROM employe', function (err, result) {
-      if (err) throw err;
-      console.log("Result: " + result);
-    });
-  }); */
+  
 });
 
 module.exports = router;
