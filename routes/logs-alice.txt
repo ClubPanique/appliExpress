@@ -1,0 +1,240 @@
+Beginning of logs for deployment 30 - 2019-07-15 12:35 - Status: OK
+2019-07-15T12:35:24+02:00 (CRON) INFO (RANDOM_DELAY will be scaled with factor 45% if used.)
+2019-07-15T12:35:24+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/action-dispatcher-instance.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/action-dispatcher-instance.service.
+2019-07-15T12:35:24+02:00 (CRON) INFO (running with inotify support)
+2019-07-15T12:35:24+02:00 (CRON) STARTUP (1.5.4)
+2019-07-15T12:35:24+02:00 Inject PORT
+2019-07-15T12:35:24+02:00 Inject CC_ENVIRON_UPDATE_URL
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_PORT
+2019-07-15T12:35:24+02:00 Inject CC_OWNER_ID
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_HOST
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_USER
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_VERSION
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_DB
+2019-07-15T12:35:24+02:00 Inject APP_HOME
+2019-07-15T12:35:24+02:00 Inject INSTANCE_NUMBER
+2019-07-15T12:35:24+02:00 Inject CC_ENVIRON_UPDATE_TOKEN
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_URI
+2019-07-15T12:35:24+02:00 Setting up system
+2019-07-15T12:35:24+02:00 Cache: GET /api/builds/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/a86de94527a81ad90a51994ed1888f2d7102a8b2/node-20190617
+2019-07-15T12:35:24+02:00 Inject CC_APP_NAME
+2019-07-15T12:35:24+02:00 Inject CC_DEPLOYMENT_ID
+2019-07-15T12:35:24+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/telegraf.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/telegraf.service.
+2019-07-15T12:35:24+02:00 Inject INSTANCE_TYPE
+2019-07-15T12:35:24+02:00 Inject MYSQL_ADDON_PASSWORD
+2019-07-15T12:35:24+02:00 Inject INSTANCE_ID
+2019-07-15T12:35:24+02:00 Added sourceable file /home/bas/applicationrc
+2019-07-15T12:35:24+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/rsyslog.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/rsyslog.service.
+2019-07-15T12:35:24+02:00 Inject CC_REVERSE_PROXY_IPS
+2019-07-15T12:35:24+02:00 Inject COMMIT_ID
+2019-07-15T12:35:24+02:00 Inject CC_PRETTY_INSTANCE_NAME
+2019-07-15T12:35:24+02:00 Inject APP_ID
+2019-07-15T12:35:24+02:00 Preparing application environment…
+2019-07-15T12:35:25+02:00 No build cache archive yet.
+2019-07-15T12:35:25+02:00 Cloning into '/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0'...
+2019-07-15T12:35:26+02:00 Note: checking out 'a86de94527a81ad90a51994ed1888f2d7102a8b2'.
+2019-07-15T12:35:26+02:00 HEAD is now at a86de94 With env variables
+2019-07-15T12:35:26+02:00 git checkout -b <new-branch-name>
+2019-07-15T12:35:26+02:00 No Clever Cloud specific configuration file detected. Continuing…
+2019-07-15T12:35:26+02:00 If you want to create a new branch to retain commits you create, you may
+2019-07-15T12:35:26+02:00 Mounting persistent file system
+2019-07-15T12:35:26+02:00 changes and commit them, and you can discard any commits you make in this
+2019-07-15T12:35:26+02:00 do so (now or later) by using -b with the checkout command again. Example:
+2019-07-15T12:35:26+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/shiva-hand.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/shiva-hand.service.
+2019-07-15T12:35:26+02:00 state without impacting any branches by performing another checkout.
+2019-07-15T12:35:26+02:00 You are in 'detached HEAD' state. You can look around, make experimental
+2019-07-15T12:35:26+02:00 using python version 2
+2019-07-15T12:35:26+02:00 | .. |
+2019-07-15T12:35:26+02:00 |o+o=+o. |
+2019-07-15T12:35:26+02:00 The key fingerprint is:
+2019-07-15T12:35:26+02:00 Changing current directory to /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0…
+2019-07-15T12:35:26+02:00 |.+oo..o S |
+2019-07-15T12:35:26+02:00 | ..o=. = |
+2019-07-15T12:35:26+02:00 +----[SHA256]-----+
+2019-07-15T12:35:26+02:00 Your identification has been saved in /home/bas/.ssh/id_rsa.
+2019-07-15T12:35:26+02:00 We are now in /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0, let's build and run the app.
+2019-07-15T12:35:26+02:00 Generating public/private rsa key pair.
+2019-07-15T12:35:26+02:00 | ... .. |
+2019-07-15T12:35:26+02:00 |o+ +***oo. |
+2019-07-15T12:35:26+02:00 Your public key has been saved in /home/bas/.ssh/id_rsa.pub.
+2019-07-15T12:35:26+02:00 +---[RSA 1024]----+
+2019-07-15T12:35:26+02:00 | .=. o. o |
+2019-07-15T12:35:26+02:00 |.+=+.. |
+2019-07-15T12:35:26+02:00 SHA256:5NDK+u2jSmtBw6X67AlJsuhKmzHnBDMRLdvs+euxOcc bas@3bd52a38-0bc8-4b0c-8b1d-fc60280ae8a1
+2019-07-15T12:35:26+02:00 |o Oo+*+E. |
+2019-07-15T12:35:26+02:00 The key's randomart image is:
+2019-07-15T12:35:26+02:00 Deploying commit ID a86de94527a81ad90a51994ed1888f2d7102a8b2
+2019-07-15T12:35:27+02:00 Installing dependencies..
+2019-07-15T12:35:27+02:00 Starting with Node version v10.16.0
+2019-07-15T12:37:51+02:00 > https://opencollective.com/core-js
+2019-07-15T12:37:51+02:00 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+2019-07-15T12:37:51+02:00 > node scripts/postinstall || echo "ignore"
+2019-07-15T12:37:51+02:00 > core-js@2.6.9 postinstall /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/core-js
+2019-07-15T12:37:51+02:00 > https://www.patreon.com/zloirock
+2019-07-15T12:37:51+02:00 The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+2019-07-15T12:37:51+02:00 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+2019-07-15T12:37:51+02:00 Creating build cache archive
+2019-07-15T12:37:51+02:00 run `npm audit fix` to fix them, or `npm audit` for details
+2019-07-15T12:37:51+02:00 npm --production=false install --no-progress successful
+2019-07-15T12:37:51+02:00 found 1 low severity vulnerability
+2019-07-15T12:37:51+02:00 added 127 packages from 185 contributors and audited 260 packages in 142.257s
+2019-07-15T12:37:51+02:00 build cache archive created
+2019-07-15T12:37:51+02:00 Running as unit: bas-deploy.service
+2019-07-15T12:37:52+02:00 start script is node ./bin/www
+2019-07-15T12:37:52+02:00 Starting the application…
+2019-07-15T12:37:52+02:00 > node ./bin/www
+2019-07-15T12:37:52+02:00 > appliexpress@0.0.0 start /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0
+2019-07-15T12:37:57+02:00 GET / 200 217.899 ms - 218
+2019-07-15T12:37:57+02:00 No cron to setup
+2019-07-15T12:37:57+02:00 Connected!
+2019-07-15T12:37:57+02:00 Multipart upload initiated for builds/app-app_a5c2c269-08b1-4e88-a958-7e6985aa55a0-commit-a86de94527a81ad90a51994ed1888f2d7102a8b2-for-node-20190617, UploadId: nZEUbX9bQ4yt7ysX9215iQ==
+2019-07-15T12:37:57+02:00 Application start successful
+2019-07-15T12:37:57+02:00 at Function.render (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/application.js:592:3)
+2019-07-15T12:37:57+02:00 at tryRender (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/application.js:640:10)
+2019-07-15T12:37:57+02:00 at ServerResponse.setHeader (_http_outgoing.js:470:11)
+2019-07-15T12:37:57+02:00 at View.render (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/view.js:135:8)
+2019-07-15T12:37:57+02:00 Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2019-07-15T12:37:57+02:00 at ServerResponse.send (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:170:12)
+2019-07-15T12:37:57+02:00 at ServerResponse.header (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:767:10)
+2019-07-15T12:37:57+02:00 at View.exports.__express [as engine] (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/pug/lib/index.js:455:11)
+2019-07-15T12:37:57+02:00 at Object.exports.renderFile (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/pug/lib/index.js:412:12)
+2019-07-15T12:37:57+02:00 at done (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:1004:10)
+2019-07-15T12:37:57+02:00 Uploading part 1, 4277011 bytes
+2019-07-15T12:37:57+02:00 at ServerResponse.render (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:1008:7)
+2019-07-15T12:37:59+02:00 Uploaded part 1 for builds/app-app_a5c2c269-08b1-4e88-a958-7e6985aa55a0-commit-a86de94527a81ad90a51994ed1888f2d7102a8b2-for-node-20190617, UploadId: nZEUbX9bQ4yt7ysX9215iQ==
+2019-07-15T12:37:59+02:00 Upload completed for builds/app-app_a5c2c269-08b1-4e88-a958-7e6985aa55a0-commit-a86de94527a81ad90a51994ed1888f2d7102a8b2-for-node-20190617 UploadId: nZEUbX9bQ4yt7ysX9215iQ==
+2019-07-15T12:37:59+02:00 Time to clean up and say good bye.
+Build succeeded in 2 minutes and 33 seconds
+2019-07-15T12:37:59+02:00 Done uploading build cache archive
+2019-07-15T12:37:59+02:00 Good bye!
+2019-07-15T12:37:59+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/zabbix-agentd.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/zabbix-agentd.service.
+2019-07-15T12:38:00+02:00 at /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/index.js:281:22
+2019-07-15T12:38:00+02:00 at Route.dispatch (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/route.js:112:3)
+2019-07-15T12:38:00+02:00 npm ERR! appliexpress@0.0.0 start: `node ./bin/www`
+2019-07-15T12:38:00+02:00 at Connection.connect (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/Connection.js:119:18)
+2019-07-15T12:38:00+02:00 at Protocol._enqueue (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+2019-07-15T12:38:00+02:00 ^
+2019-07-15T12:38:00+02:00 /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/routes/index.js:19
+2019-07-15T12:38:00+02:00 Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+2019-07-15T12:38:00+02:00 GET / 200 40.388 ms - 218
+2019-07-15T12:38:00+02:00 at /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/routes/index.js:18:7
+2019-07-15T12:38:00+02:00 npm ERR! Exit status 1
+2019-07-15T12:38:00+02:00 at Protocol.handshake (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+2019-07-15T12:38:00+02:00 npm ERR! code ELIFECYCLE
+2019-07-15T12:38:00+02:00 at Protocol._validateEnqueue (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/protocol/Protocol.js:221:16)
+2019-07-15T12:38:00+02:00 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2019-07-15T12:38:00+02:00 npm ERR!
+2019-07-15T12:38:00+02:00 if (err) throw err;
+2019-07-15T12:38:00+02:00 npm ERR! /home/bas/.npm/_logs/2019-07-15T10_38_00_066Z-debug.log
+2019-07-15T12:38:00+02:00 npm ERR! A complete log of this run can be found in:
+2019-07-15T12:38:00+02:00 npm ERR! Failed at the appliexpress@0.0.0 start script.
+2019-07-15T12:38:00+02:00 npm ERR! errno 1
+2019-07-15T12:38:00+02:00 at next (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/route.js:137:13)
+2019-07-15T12:38:00+02:00 at Layer.handle [as handle_request] (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/layer.js:95:5)
+2019-07-15T12:38:00+02:00 at Layer.handle [as handle_request] (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/layer.js:95:5)
+2019-07-15T12:38:15+02:00 (CRON) INFO (running with inotify support)
+2019-07-15T12:38:15+02:00 (CRON) STARTUP (1.5.4)
+2019-07-15T12:38:15+02:00 (CRON) INFO (RANDOM_DELAY will be scaled with factor 20% if used.)
+2019-07-15T12:38:15+02:00 Setting up system
+2019-07-15T12:38:15+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/action-dispatcher-instance.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/action-dispatcher-instance.service.
+2019-07-15T12:38:15+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/rsyslog.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/rsyslog.service.
+2019-07-15T12:38:15+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/telegraf.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/telegraf.service.
+2019-07-15T12:38:15+02:00 Preparing application environment…
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_URI
+2019-07-15T12:38:15+02:00 Inject CC_APP_NAME
+2019-07-15T12:38:15+02:00 Inject CC_OWNER_ID
+2019-07-15T12:38:15+02:00 Inject INSTANCE_TYPE
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_DB
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_PORT
+2019-07-15T12:38:15+02:00 Inject CC_DEPLOYMENT_ID
+2019-07-15T12:38:15+02:00 Inject INSTANCE_NUMBER
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_HOST
+2019-07-15T12:38:15+02:00 Inject CC_ENVIRON_UPDATE_TOKEN
+2019-07-15T12:38:15+02:00 Inject CC_REVERSE_PROXY_IPS
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_PASSWORD
+2019-07-15T12:38:15+02:00 Inject PORT
+2019-07-15T12:38:15+02:00 Inject CC_PRETTY_INSTANCE_NAME
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_USER
+2019-07-15T12:38:15+02:00 Inject MYSQL_ADDON_VERSION
+2019-07-15T12:38:15+02:00 Inject CC_ENVIRON_UPDATE_URL
+2019-07-15T12:38:15+02:00 Cache: GET /api/builds/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/a86de94527a81ad90a51994ed1888f2d7102a8b2/node-20190617
+2019-07-15T12:38:15+02:00 Added sourceable file /home/bas/applicationrc
+2019-07-15T12:38:15+02:00 Inject INSTANCE_ID
+2019-07-15T12:38:15+02:00 Inject APP_ID
+2019-07-15T12:38:15+02:00 Inject APP_HOME
+2019-07-15T12:38:15+02:00 Inject COMMIT_ID
+2019-07-15T12:38:16+02:00 build cache archive exists, download it…
+2019-07-15T12:38:17+02:00 Done downloading build cache archive
+2019-07-15T12:38:17+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/shiva-hand.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/shiva-hand.service.
+2019-07-15T12:38:17+02:00 Your public key has been saved in /home/bas/.ssh/id_rsa.pub.
+2019-07-15T12:38:17+02:00 Generating public/private rsa key pair.
+2019-07-15T12:38:17+02:00 | . X . |
+2019-07-15T12:38:17+02:00 SHA256:1XGATM/8vn7t7qRciAdLQF5XyRyXdzOeVcozuo0HTD0 bas@4b60b8e3-448c-4435-896f-de1d844a3faf
+2019-07-15T12:38:17+02:00 | oo.+.=oO|
+2019-07-15T12:38:17+02:00 +---[RSA 1024]----+
+2019-07-15T12:38:17+02:00 | + * E B|
+2019-07-15T12:38:17+02:00 using python version 2
+2019-07-15T12:38:17+02:00 The key fingerprint is:
+2019-07-15T12:38:17+02:00 No Clever Cloud specific configuration file detected. Continuing…
+2019-07-15T12:38:17+02:00 Mounting persistent file system
+2019-07-15T12:38:17+02:00 +----[SHA256]-----+
+2019-07-15T12:38:17+02:00 | = * +|
+2019-07-15T12:38:17+02:00 | oo* * O=|
+2019-07-15T12:38:17+02:00 The key's randomart image is:
+2019-07-15T12:38:17+02:00 Your identification has been saved in /home/bas/.ssh/id_rsa.
+2019-07-15T12:38:17+02:00 | .==+|
+2019-07-15T12:38:17+02:00 | + =o|
+2019-07-15T12:38:17+02:00 | S * . |
+2019-07-15T12:38:17+02:00 | . + o * |
+2019-07-15T12:38:18+02:00 Deploying commit ID a86de94527a81ad90a51994ed1888f2d7102a8b2
+2019-07-15T12:38:18+02:00 We are now in /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0, let's build and run the app.
+2019-07-15T12:38:18+02:00 Changing current directory to /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0…
+2019-07-15T12:38:20+02:00 Running as unit: bas-deploy.service
+2019-07-15T12:38:21+02:00 > node ./bin/www
+2019-07-15T12:38:21+02:00 start script is node ./bin/www
+2019-07-15T12:38:21+02:00 > appliexpress@0.0.0 start /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0
+2019-07-15T12:38:21+02:00 Starting the application…
+2019-07-15T12:38:25+02:00 GET / 200 355.908 ms - 218
+2019-07-15T12:38:25+02:00 No cron to setup
+2019-07-15T12:38:25+02:00 Application start successful
+2019-07-15T12:38:25+02:00 Created symlink /etc/systemd/system/multi-user.target.wants/zabbix-agentd.service → /usr/x86_64-pc-linux-gnu/lib/systemd/system/zabbix-agentd.service.
+2019-07-15T12:38:25+02:00 at View.render (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/view.js:135:8)
+2019-07-15T12:38:25+02:00 at ServerResponse.setHeader (_http_outgoing.js:470:11)
+2019-07-15T12:38:25+02:00 at ServerResponse.render (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:1008:7)
+2019-07-15T12:38:25+02:00 at ServerResponse.send (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:170:12)
+2019-07-15T12:38:25+02:00 Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+Successfully deployed in 0 minutes and 10 seconds
+2019-07-15T12:38:25+02:00 at View.exports.__express [as engine] (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/pug/lib/index.js:455:11)
+2019-07-15T12:38:25+02:00 at done (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:1004:10)
+2019-07-15T12:38:25+02:00 at Object.exports.renderFile (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/pug/lib/index.js:412:12)
+2019-07-15T12:38:25+02:00 Good bye!
+2019-07-15T12:38:25+02:00 Time to clean up and say good bye.
+2019-07-15T12:38:25+02:00 at tryRender (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/application.js:640:10)
+2019-07-15T12:38:25+02:00 at ServerResponse.header (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/response.js:767:10)
+2019-07-15T12:38:25+02:00 No build cache archive was created. Not uploading anything.
+2019-07-15T12:38:25+02:00 at Function.render (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/application.js:592:3)
+2019-07-15T12:38:25+02:00 Connected!
+2019-07-15T12:38:28+02:00 at /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/routes/index.js:18:7
+2019-07-15T12:38:28+02:00 at Protocol.handshake (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+2019-07-15T12:38:28+02:00 at /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/index.js:281:22
+2019-07-15T12:38:28+02:00 at Protocol._enqueue (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+2019-07-15T12:38:28+02:00 npm ERR! appliexpress@0.0.0 start: `node ./bin/www`
+2019-07-15T12:38:28+02:00 ^
+2019-07-15T12:38:28+02:00 npm ERR! Exit status 1
+2019-07-15T12:38:28+02:00 at Route.dispatch (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/route.js:112:3)
+2019-07-15T12:38:28+02:00 npm ERR! Failed at the appliexpress@0.0.0 start script.
+2019-07-15T12:38:28+02:00 if (err) throw err;
+2019-07-15T12:38:28+02:00 at next (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/route.js:137:13)
+2019-07-15T12:38:28+02:00 at Layer.handle [as handle_request] (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/layer.js:95:5)
+2019-07-15T12:38:28+02:00 at Connection.connect (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/Connection.js:119:18)
+2019-07-15T12:38:28+02:00 Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+2019-07-15T12:38:28+02:00 npm ERR!
+2019-07-15T12:38:28+02:00 at Layer.handle [as handle_request] (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/express/lib/router/layer.js:95:5)
+2019-07-15T12:38:28+02:00 GET / 200 33.621 ms - 218
+2019-07-15T12:38:28+02:00 npm ERR! errno 1
+2019-07-15T12:38:28+02:00 /home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/routes/index.js:19
+2019-07-15T12:38:28+02:00 at Protocol._validateEnqueue (/home/bas/app_a5c2c269-08b1-4e88-a958-7e6985aa55a0/node_modules/mysql/lib/protocol/Protocol.js:221:16)
+2019-07-15T12:38:28+02:00 npm ERR! code ELIFECYCLE
+2019-07-15T12:38:28+02:00 npm ERR! /home/bas/.npm/_logs/2019-07-15T10_38_27_865Z-debug.log
+2019-07-15T12:38:28+02:00 npm ERR! A complete log of this run can be found in:
+2019-07-15T12:38:28+02:00 npm ERR! This is probably not a problem with npm. There is likely additional logging output above. 

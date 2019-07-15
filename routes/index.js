@@ -20,7 +20,7 @@ router.get('/', function (req, res, next) {
     console.log("Connected!");
     con.query('SELECT * FROM employe WHERE num_service = 30', function(err, result, fields) {
       if (err) throw err;
-      res.render('index', { test: result });
+      /* res.render('index', { test: result }); */
     })
   });
 });
