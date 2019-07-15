@@ -6,6 +6,7 @@ var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "bcojdzqyiumx3surgdjb-mysql.services.clever-cloud.com ",
+  port: 3306,
   user: "uphdcrqawqqyvp4d",
   password: "MLvjodIWXA7KwtUrPxuH",
   database: "bcojdzqyiumx3surgdjb"
